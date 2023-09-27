@@ -1,0 +1,88 @@
+.featured{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #013914;
+    color: white;
+         .container{
+          width: 1280px;
+         }
+    
+          .main{
+            display: flex;
+          }
+
+        .left{
+            display: flex;
+            flex-direction: column;
+            gap: 30;
+            justify-content: center;
+            h1{
+                font-size: 50px;
+            }
+            .search{
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+             background-color: white;
+             border-radius: 5px;
+            
+            
+            .searchInput{
+             display: flex;
+             align-items: center;
+             gap: 10px;
+              input{
+                border: none;
+                outline: none;
+              }
+             img{
+                width: 20px;
+                height: 20px;
+                margin: 10px;
+             }
+             
+             
+            }
+            
+           
+            button{
+              width: 120px;
+              height: 50px;
+              border: none;
+              background-color: #1dbf73;
+              color: white;
+             }
+           
+           }
+           .popular{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 12px;
+            .btn{
+              background-color: transparent;
+              border-radius: 24px;
+              color: white;
+              border: 1px solid white;
+              padding: 7px;
+              cursor: pointer;
+             
+            }
+            .btn:hover{
+               background-color: white;
+               color: black;
+               
+            }
+          }
+        
+        }
+        .right{
+
+        }
+
+
+    }
+
+
+

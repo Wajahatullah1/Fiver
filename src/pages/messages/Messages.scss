@@ -1,0 +1,41 @@
+.messages{
+    .container{
+        margin: 0px auto;
+        width: 1280px;
+       .tittle{
+        display: flex;
+        justify-content: space-between;
+        h1{
+         font-size: 40px;
+         font-weight: 500;
+        }
+        
+       }
+       table{
+        width: 100%;
+       
+      
+        tr{
+          height: 50px;
+          th{
+            width: 34px;
+            text-align: left;
+          }
+          &:nth-child(even){
+            background-color: #1dbf730f;
+        }
+        }
+       }
+       td{
+       button{
+        background-color: #1dbf73;
+        padding: 6px;
+        color: white;
+       }
+     
+    
+       }
+   
+    }
+   
+}

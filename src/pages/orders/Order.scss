@@ -1,0 +1,46 @@
+.order{
+    .container{
+        margin: 0px auto;
+        width: 1280px;
+       .tittle{
+        display: flex;
+        justify-content: space-between;
+        h1{
+         font-size: 40px;
+         font-weight: 500;
+        }
+        .btn-sm{
+           padding:19px 10px 0px 10px;
+           border: 1px solid lightgray;
+           background-color: #1dbf73;
+           color: white;
+           
+        }
+       }
+       table{
+        width: 100%;
+       
+      
+        tr{
+          height: 50px;
+          th{
+            width: 34px;
+            text-align: left;
+          }
+          &:nth-child(even){
+            background-color: #1dbf730f;
+        }
+        }
+       }
+       td{
+        img{
+           cursor: pointer;
+            height: 25px;
+        }
+     
+    
+       }
+   
+    }
+   
+}

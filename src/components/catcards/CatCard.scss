@@ -1,0 +1,31 @@
+.slider{
+    width: 225px;
+    height: 344px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    justify-content: center;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .desc{
+        font-weight: 300;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        color:gray;
+        
+    }
+    .title{
+        font-weight: 500;
+        font-size: 24px;
+        position: absolute;
+        top: 45px;
+        left: 15px;
+        color:white;
+        
+    }
+
+}
