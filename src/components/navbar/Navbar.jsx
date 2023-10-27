@@ -40,6 +40,7 @@ const Navbar = () => {
           <Link to="/" className="link" />
           <span className="fiverr">Fiverr</span>
           <span className="dot">.</span>
+          <h1>hi am updated</h1>
         </Link>
         <div className="links">
           <span>Fiverr Business</span>
